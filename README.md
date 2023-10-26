@@ -10,10 +10,6 @@ Vitality Kitchen is a responsive website designed and built from scratch using H
 
 
 
-![Home page sceenshot](./img/screenshot.png)
-
-
-
 ## Technologies Used
 
 - HTML5
