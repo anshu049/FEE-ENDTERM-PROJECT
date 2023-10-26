@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -41,7 +41,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #49e311;
 }
 
 .main-nav-link.nav-cta:link,
@@ -49,12 +49,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #10f12a;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #49e311;
 }
 
 /* MOBILE NAVIGATION */
@@ -100,7 +100,7 @@
 /**************************/
 
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -140,7 +140,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #e9fdeabc;
 }
 
 .delivered-imgs img:last-child {
@@ -153,7 +153,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: #49e311;
   font-weight: 700;
 }
 
@@ -232,14 +232,14 @@
   /* 60% of parent's width */
   padding-bottom: 60%;
 
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #d3fadd;
   z-index: -1;
 }
 
@@ -322,7 +322,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #10f12a;
 }
 
 .meal-img {
@@ -339,7 +339,7 @@
 /**************************/
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -410,12 +410,12 @@
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #e9fdeabc;
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -442,7 +442,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #49e311;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -481,10 +481,10 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #10f12a;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -518,17 +518,17 @@
   display: grid;
   /* 2/3 = 66.6% + 1/3 = 33.3% */
   grid-template-columns: 2fr 1fr;
-  /* background-color: #e67e22; */
+  /* background-color: #10f12a; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #3feb53, #10f12a);
   overflow: hidden;
 }
 
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #45260a;
+  color: #14450a;
 }
 
 .cta .heading-secondary {
@@ -546,8 +546,8 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
+      rgba(112, 235, 78, 0.2),
+      rgba(76, 227, 91, 0.2)
     ),
     url("../img/eating.jpg");
   background-size: cover;
@@ -576,7 +576,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fdf2e9;
+  background-color: #e9fdeabc;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
